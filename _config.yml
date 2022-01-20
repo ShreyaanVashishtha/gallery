@@ -1,28 +1,28 @@
 # ----
 # Site
 
-title: Photography Portfolio Site
-url: "https://cosmic-hippopotamus.cloudvent.net"
+title: Photography | Shreyaan Vashishtha
+url: "https://gallery.shreyaan.tech"
 baseurl: 
 image_fulls_loc: "/uploads"
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Photography portfolio site of my works by Borisov Vadim.
-author: Borisov Vadim 
-name: Vadim
-email: veaxman@gmail.com
-twitter: borisseauve
+description: Photography portfolio site of my works by Shreyaan Vashishtha.
+author: Shreyaan Vashishtha
+name: Shreyaan
+email: admin@shreyaan.tech
+twitter: shreyaantech
 # Custom vars
 socials_links:
-- url: https://github.com/veax
+- url: https://github.com/shreyaanvashishtha
   class: fab fa-github
-- url: https://www.facebook.com/profile.php?id=100001788716921
-  class: fab fa-facebook-square
-- url: https://vk.com/id151991161
-  class: fab fa-vk
-- url: https://www.instagram.com/veax/
+- url: https://www.youtube.com/shreyaanvashishtha
+  class: fab fa-youtube
+- url: https://twitter.com/shreyaantech
+  class: fab fa-twiter
+- url: https://www.instagram.com/shreyaanvashishtha/
   class: fab fa-instagram
 
 # -----
@@ -65,3 +65,7 @@ _options:
     resize_style: "contain"
     mime_type: "image/jpeg"
     expandable: true
+
+
+- name: Image Optimizer
+  uses: crush-pics/crush-pics-github-action@v1.0
