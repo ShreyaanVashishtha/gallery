@@ -19,9 +19,9 @@ socials_links:
 - url: https://github.com/shreyaanvashishtha
   class: fab fa-github
 - url: https://www.youtube.com/shreyaanvashishtha
-  class: fab fa-youtube
+  class: fab fa-twitter
 - url: https://twitter.com/shreyaantech
-  class: fab fa-twiter
+  class: fab fa-vk
 - url: https://www.instagram.com/shreyaanvashishtha/
   class: fab fa-instagram
 
@@ -65,7 +65,3 @@ _options:
     resize_style: "contain"
     mime_type: "image/jpeg"
     expandable: true
-
-
-- name: Image Optimizer
-  uses: crush-pics/crush-pics-github-action@v1.0
